@@ -1,0 +1,28 @@
+body{
+			background: #000;
+			/*overflow: hidden;*/
+		}
+		.ripple-wrap {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		.ripple-wrap canvas {
+			position: absolute;
+			z-index: 1;
+			background: none;
+            opacity: 0;
+			/*cursor:help;*/
+		}
+		.header{
+			position: fixed;
+			top:20px;
+			left: 25px;
+			font-family: monospace;
+			color: white;
+			z-index: 99;
+		}
+		a, a:visited{
+			color: #fff;
+		}
